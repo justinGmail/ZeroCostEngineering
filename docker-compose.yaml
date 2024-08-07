@@ -1,0 +1,17 @@
+version: '3.7'
+services:
+  ollama:
+    image: ollama/ollama
+    container_name: ollama
+    restart: on-failure
+    volumes:
+      - .ollama:/root/.ollama
+    ports:
+      - "11434:11434"
+  flask_server:
+    image: zerocost-flaskserver
+    container_name: zerocost-flaskserver
+    ports:
+       - "8013:8013"
+       - "8014:8014"
+    restart: always
