@@ -1,4 +1,3 @@
-/nifi-config/
-/nifi-data/
+/.idea/
 /.ollama/
 /docker_base/data/
