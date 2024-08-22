@@ -34,7 +34,7 @@ Many moving parts here!  The flask server has to get the code back and 'compile 
 Note, in the future this Flask server will spin up its own Docker contaienrs (or container microservices) to run the 
 returned code.  This is a more elegant solution.
 
-**ollama** - This creates an Ollama container.  As user's make requests to develop an application, this is the 
+**ollama** - This creates an Ollama container.  As users make requests to develop an application, this is the 
 part of the virtual engineer that provides the raw code.  The flask_server receives and stictches together the 
 code and runs the application.  The ollama container can be instructed to use different LLM's to produce a reply.
 
