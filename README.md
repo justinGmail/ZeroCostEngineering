@@ -6,9 +6,7 @@ all sorts of software that you imagine but do not have the time or engineering s
 
 ### Pre-Reqs
 
-You will need a system with a Docker Engine installed.  That is it - that's all!  Here is a link to Docker to install and run it on your macchine.
-
-If you are not familiar with Docker, you should read this:
+You will need a system with a Docker Engine installed.  That is it - that's all!  Here is a link to learn about Docker and install it on your machine: https://www.docker.com/
 
 To run it - simply issue this command from a terminal:
 
