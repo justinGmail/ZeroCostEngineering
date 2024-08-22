@@ -2,7 +2,7 @@
 ### Your Virtual Software Engineer!
 
 Welcome to Zero Cost.  This is a first iteration of a virtual software engineer.  It will eventually help you develop
-all sorts of software that you imagine but do not have the time or engineering skill to develop.
+all sorts of software that you imagine but do not have the time or programming language skill to develop.
 
 ### Pre-Reqs
 
