@@ -26,12 +26,12 @@ Its entry point is app.py.  Give the logic a read.  In a nutshell, it does the f
 
 1. Receives the users request from the Authoring UI,
 2. Sends out the request to create the runnable code to Ollama,
-3. Receives the Ollama reply,
+3. Receives the Ollama reply, using codellama to create the code,
 3. Runs it,
 4. Sends back the result - for better or worse - to the Authoring UI.
 
 Many moving parts here!  The flask server has to get the code back and 'compile it' and then load it real time.  
-Note, this Flask server will eventually spin up its own Docker contaienrs (or container microservices) to run the 
+Note, in the future this Flask server will spin up its own Docker contaienrs (or container microservices) to run the 
 returned code.  This is a more elegant solution.
 
 **ollama** - This creates an Ollama container.  As user's make requests to develop an application, this is the 
