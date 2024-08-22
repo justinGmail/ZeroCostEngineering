@@ -95,7 +95,6 @@ def create_persisted_code(generated_code, random_prefix):
 
 def register(random_prefix, new_module, new_param):
     try:
-        url = "http://example.com"  # Replace this with a valid URL for your use case
         result = new_module.new_function(new_param)
         logger.info("Function call successful")
         logger.info("Result: ", result)
