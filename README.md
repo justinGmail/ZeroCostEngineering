@@ -24,8 +24,9 @@ file.
 **flask_server** - This creates a Python container running the Flask server with Zero Cost's business logic.  
 Its entry point is app.py.  Give the logic a read.  In a nutshell, it does the following:
 
-1. The users request from the Authoring UI,
-2. Sends out the request to create the runnable code,
+1. Receives the users request from the Authoring UI,
+2. Sends out the request to create the runnable code to Ollama,
+3. Receives the Ollama reply,
 3. Runs it,
 4. Sends back the result - for better or worse - to the Authoring UI.
 
